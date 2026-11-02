@@ -128,7 +128,5 @@ Console.WriteLine(birdCount.Today());
 - C#
 - .NET
 
-## Author
-
-<!-- Enter your name here -->
+**Made with ❤︎⁠ by AbduliP**
 
