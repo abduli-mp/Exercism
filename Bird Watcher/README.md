@@ -1,7 +1,6 @@
-**Title:** Bird Watcher
+# Bird Watcher
 
-**Description:** A Program that keeps track of how many birds have visited your garden in the last seven days.
----
+<p>A Program that keeps track of how many birds have visited your garden in the last seven days.</p>
 
 ## Overview
 
