@@ -1,4 +1,4 @@
-# Lucian's Luscious Lasagna
+![Lasagna](https://assets.exercism.org/exercises/lasagna.svg) **Lucian's Luscious Lasagna**
 
 <p>A program that calculates cooking and preparation times for a lasagna recipe, including the expected oven time, preparation time, remaining cooking time, and total elapsed time.</p>
 
@@ -8,9 +8,9 @@ The `Lasagna` class provides methods to calculate different time measurements in
 
 It uses a few simple calculations to determine how long the lasagna should stay in the oven, how much cooking time remains, and how long preparation takes based on the number of layers.
 
-## Getting Started
+### Getting Started
 
-### 1. Creating a Lasagna Object
+#### 1. Creating a Lasagna Object
 
 To use the methods, first create a new `Lasagna` object.
 
