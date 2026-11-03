@@ -1,6 +1,6 @@
-# Bird Watcher
+![Bird Watcher](https://assets.exercism.org/exercises/bird-watcher.svg) **Bird Watcher**
 
-<p>A Program that keeps track of how many birds have visited your garden in the last seven days.</p>
+<p>A program that keeps track of how many birds have visited your garden in the last seven days.</p>
 
 ## Overview
 
@@ -8,13 +8,13 @@ The `BirdCount` class is designed to store and manage the number of birds counte
 
 It provides methods to retrieve daily counts, update today's count, check for days without birds, calculate totals, and identify busy days.
 
-## Getting Started
+### Getting Started
 
-### 1. Creating a BirdCount Object
+#### 1. Creating a BirdCount Object
 
 To use the methods, first create an array containing the bird counts for each day.
 
-```csharp
+```csharp id="8h1f4k"
 int[] birds = { 0, 2, 5, 3, 7, 8, 4 };
 
 BirdCount birdCount = new BirdCount(birds);
@@ -28,7 +28,7 @@ The array represents seven days, starting from Monday to Sunday.
 
 Returns a predefined array containing the bird counts from last week.
 
-```csharp
+```csharp id="9v2x5m"
 int[] lastWeek = BirdCount.LastWeek();
 ```
 
@@ -38,7 +38,7 @@ int[] lastWeek = BirdCount.LastWeek();
 
 Returns the number of birds counted today.
 
-```csharp
+```csharp id="3f6j8k"
 int today = birdCount.Today();
 ```
 
@@ -48,7 +48,7 @@ int today = birdCount.Today();
 
 Increases today's bird count by one.
 
-```csharp
+```csharp id="4k7m2p"
 birdCount.IncrementTodaysCount();
 ```
 
@@ -58,7 +58,7 @@ birdCount.IncrementTodaysCount();
 
 Checks whether there is at least one day with zero birds.
 
-```csharp
+```csharp id="6p9w3r"
 bool result = birdCount.HasDayWithoutBirds();
 ```
 
@@ -71,7 +71,7 @@ bool result = birdCount.HasDayWithoutBirds();
 
 Calculates the total number of birds counted during the first specified number of days.
 
-```csharp
+```csharp id="2m5n8v"
 int total = birdCount.CountForFirstDays(3);
 ```
 
@@ -83,7 +83,7 @@ Example: If the first three days have counts of `0, 2, 5`, the result is `7`.
 
 Counts how many days had five or more birds.
 
-```csharp
+```csharp id="7r4t1x"
 int busyDays = birdCount.BusyDays();
 ```
 
@@ -95,7 +95,7 @@ Example: With the array `{ 0, 2, 5, 3, 7, 8, 4 }`, the result is `3`.
 
 ## Example Usage
 
-```csharp
+```csharp id="5j8q2w"
 int[] birds = { 0, 2, 5, 3, 7, 8, 4 };
 
 BirdCount birdCount = new BirdCount(birds);
@@ -127,6 +127,6 @@ Console.WriteLine(birdCount.Today());
 
 - C#
 - .NET
+- Object-Oriented Programming (OOP)
 
-**Made with ❤︎⁠ by AbduliP**
-
+**Made with ❤︎ by AbduliP**
