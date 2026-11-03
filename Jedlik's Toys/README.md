@@ -1,4 +1,4 @@
-# Jedlik's Toys
+![Jedlik's Toys](https://assets.exercism.org/assets/graphics/missing-exercise-54cf5afe4add37d9cf717793c91b088a7dd242ef.svg) **Jedlik's Toys**
 
 <p>A program that simulates a remote-controlled car by tracking its driving distance and remaining battery percentage.</p>
 
@@ -10,9 +10,9 @@ It provides methods to create a new car, drive it, display the total distance dr
 
 Each time the car is driven, it travels 20 meters and consumes 1% of its battery.
 
-## Getting Started
+### Getting Started
 
-### 1. Creating a RemoteControlCar Object
+#### 1. Creating a RemoteControlCar Object
 
 To use the methods, first create a new `RemoteControlCar` object.
 
@@ -62,7 +62,7 @@ Driven 40 meters
 
 Returns a string displaying the remaining battery percentage.
 
-If the battery reaches zero, it displays `"Battery empty"`.
+If the battery reaches zero or below, it displays `"Battery empty"`.
 
 ```csharp
 string battery = car.BatteryDisplay();
@@ -131,5 +131,6 @@ Battery at 98%
 
 - C#
 - .NET
+- Object-Oriented Programming (OOP)
 
 **Made with ❤︎ by AbduliP**
